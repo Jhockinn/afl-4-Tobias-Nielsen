@@ -5,8 +5,9 @@ void small_stack_allocated_tree();
 void large_heap_allocated_tree();
 
 int main(void) {
+
     small_stack_allocated_tree();
-    // large_heap_allocated_tree();
+    large_heap_allocated_tree();
 
     return 0;
 }
